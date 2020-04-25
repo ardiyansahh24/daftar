@@ -516,10 +516,12 @@
             
         </div>
         <div class="form-group text-center">
+            <button class="btn btn-success" onclick="ayFunction()" id="button" style="margin-left: 38%">cetak</button>
             <input type="submit" name="add" class="btn btn-primary input-lg" value="Kirim Data">
            </div>
        
     </form>
+
         
     </div>
         </div>
@@ -535,7 +537,20 @@
   </body>
 </html>
 
-
+<script>
+    function ayFunction(){
+        var x = document.getElementById("button");
+        if(x.style.display == "none"){
+            x.style.display="block";
+        }else{
+            x.style.display="none";
+        }
+        window.print();
+        x.style.display="block";
+        x.style.float="right";
+        x.style.marginBottom="10px";
+    }
+</script>
 
 
 
@@ -553,3 +568,4 @@
 </head>
 
 </html> --}}
+
