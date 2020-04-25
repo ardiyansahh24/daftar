@@ -20,7 +20,7 @@
 
           <div class="inner cover">
             <h1 class="cover-heading">Terima Kasih</h1>
-            <p class="lead">Anda Sudah Terdaftar.</p>
+            <p class="lead">Anda Sudah Terdaftar</p>
               <a  href="{{ route('pdbs.index') }}" class="btn btn-lg btn-danger">Keluar</a>
             </p>
           </div>
